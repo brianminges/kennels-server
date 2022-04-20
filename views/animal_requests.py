@@ -1,30 +1,118 @@
+# These are for challenge 1
+# ANIMALS = [
+#     {
+#         "id": 1,
+#         "name": "Snickers",
+#         "species": "Dog",
+#         "customerId": 4
+#     },
+#     {
+#         "id": 2,
+#         "name": "Brixton",
+#         "species": "Dog",
+#         "customerId": 1
+#     },
+#     {
+#         "id": 3,
+#         "name": "Blue",
+#         "species": "Cat",
+#         "customerId": 5
+#     },
+#     {
+#         "id": 4,
+#         "name": "Micky",
+#         "species": "Mouse",
+#         "customerId": 2
+#     },
+#     {
+#         "id": 5,
+#         "name": "Scooby",
+#         "species": "Dog",
+#         "customerId": 6
+#     },
+#     {
+#         "id": 6,
+#         "name": "Jack",
+#         "species": "Rabbit",
+#         "customerId": 3
+#     }
+# ]
+
+# These are for challenge 2
 ANIMALS = [
     {
         "id": 1,
         "name": "Snickers",
         "species": "Dog",
-        "locationId": 1,
-        "customerId": 4,
-        "status": "Admitted"
+        "customerId": 4
     },
     {
         "id": 2,
-        "name": "Gypsy",
+        "name": "Brixton",
         "species": "Dog",
-        "locationId": 1,
-        "customerId": 2,
-        "status": "Admitted"
+        "customerId": 1
     },
     {
         "id": 3,
         "name": "Blue",
         "species": "Cat",
-        "locationId": 2,
-        "customerId": 1,
-        "status": "Admitted"
+        "customerId": 5
+    },
+    {
+        "id": 4,
+        "name": "Micky",
+        "species": "Mouse",
+        "customerId": 2
+    },
+    {
+        "id": 5,
+        "name": "Scooby",
+        "species": "Dog",
+        "customerId": 6
+    },
+    {
+        "id": 6,
+        "name": "Jack",
+        "species": "Rabbit",
+        "customerId": 3
+    },
+    {
+        "id": 7,
+        "name": "Winston",
+        "species": "Dog",
+        "customerId": 3
+    },
+    {
+        "id": 8,
+        "name": "Goofy",
+        "species": "Dog",
+        "customerId": 6
+    },
+    {
+        "id": 8,
+        "name": "Daisy",
+        "species": "Cat",
+        "customerId": 1
+    },
+    {
+        "id": 10,
+        "name": "Minnie",
+        "species": "Mouse",
+        "customerId": 2
+    },
+    {
+        "id": 11,
+        "name": "Scruffy",
+        "species": "Dog",
+        "customerId": 3
+    },
+    {
+        "id": 12,
+        "name": "Lucky",
+        "species": "Rabbit",
+        "customerId": 2
     }
 ]
-
 
 def get_all_animals():
     return ANIMALS

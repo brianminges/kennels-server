@@ -121,15 +121,22 @@ class HandleRequests(BaseHTTPRequestHandler):
         # function next.
         if resource == "animals":
             new_animal = create_animal(post_body)
-        elif resource == "locations":
-            new_location == create_location(post_body)
-        elif resource == "employees":
-            new_employee == create_employee(post_body)
-        elif resource == "customers":
-            new_customer == create_customer(post_body)
+            self.wfile.write(f"{new_animal}".encode())
+            
+        if resource == "locations":
+            new_location = create_location(post_body)
+            self.wfile.write(f"{new_location}".encode())
+            
+        if resource == "employees":
+            new_employee = create_employee(post_body)
+            self.wfile.write(f"{new_employee}".encode())
+            
+        if resource == "customers":
+            new_customer = create_customer(post_body)
+            self.wfile.write(f"{new_customer}".encode())
 
         # Encode the new animal and send in response
-        self.wfile.write(f"{new_animal}".encode())
+        # self.wfile.write(f"{new_animal}".encode())
     
     def do_DELETE(self):
         # Set a 204 response code

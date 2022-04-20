@@ -1,31 +1,33 @@
 CUSTOMERS = [
     {
       "id": 1,
-      "name": "Sydney Noh",
-      "address": "976 Software School Rd.",
-      "phone": "6152223333",
-      "email": "snoh@gmail.com"
+      "name": "Grace",
+      "age": 24
     },
     {
       "id": 2,
-      "name": "Trevor Guinn",
-      "address": "123 NSS Ln",
-      "phone": "6152222222",
-      "email": "tguinn@gmail.com"
+      "name": "Josh",
+      "age": 18
     },
     {
       "id": 3,
-      "name": "John \"No name\" Doe",
-      "address": "456 Anywhere Road",
-      "phone": "6153334444",
-      "email": "jdoe@yahoo.com"
+      "name": "Jeff",
+      "age": 37
     },
     {
       "id": 4,
-      "name": "Jane Johnson",
-      "address": "789 Nowhere Road",
-      "phone": "6154444444",
-      "email": "jjohnson@gmail.com"
+      "name": "Jamal",
+      "age": 41
+    },
+    {
+      "id": 5,
+      "name": "Megan",
+      "age": 28
+    },
+    {
+      "id": 6,
+      "name": "Caroline",
+      "age": 64
     }
 ]
 
